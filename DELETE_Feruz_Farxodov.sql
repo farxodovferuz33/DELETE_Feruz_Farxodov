@@ -18,7 +18,7 @@ WHERE film_id = 1002;
 -- Only removed from payment and rental because there only customer data, and its said that except from Customer and Inventory table
 -- thats why didnt delete from these tables
 DELETE FROM payment
-WHERE customer_id = 1; dddd
+WHERE customer_id = 1;
 
 DELETE FROM rental
 WHERE customer_id = 1;
